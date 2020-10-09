@@ -1,0 +1,110 @@
+/* colorhunt color palette no. 202087 */
+/* charcoal: 41444b */
+/* dark grey: 52575d */
+/* yellow: fddb3a */
+/* off-white: f6f4e6 */
+
+h1 {
+  font-family: "EB Garamond";
+  padding-bottom: 25px;
+}
+
+h2, h3, h5, .navbar-brand, .nav-link, .dropdown-item, .form-control {
+  font-family: "EB Garamond";
+}
+
+p, a, .learn-more {
+  font-family: "Open Sans"
+}
+
+.title-box {
+  margin-top: 140px;
+}
+
+.title-text {
+  width: 70%;
+}
+
+.title-img {
+  width: 100%;
+}
+
+.services-box {
+  text-align: center;
+  margin: 3rem 0 5rem 0;
+}
+
+.service-col {
+  margin-bottom: 50px;
+}
+
+.service-img {
+  border-radius: 100%;
+  width:180px;
+  height: 180px;
+  margin-bottom: 1rem;
+}
+
+.service-text {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.quote {
+  font-family: "EB Garamond";
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  padding: 100px 20%;
+  line-height: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 1rem 0 1rem;
+  background-color: rgba(0,0,0,.25);
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.carousel-caption h3, .carousel-caption p {
+  text-align: left;
+}
+
+.learn-more {
+  font-size: .75rem;
+}
+
+.fa-facebook, .fa-instagram, .fa-share-alt {
+  margin-left: 1rem;
+}
+
+.fa-twitter {
+  margin-left: 0;
+}
+
+.footer-container p, .footer-container li, .footer-container a {
+  font-size: .8rem;
+}
+
+.footer-row {
+  text-align: center;
+}
+
+.footer-col-3 {
+  margin-top: 4rem;
+  padding-top: 1rem;
+}
+
+.footer-container {
+  padding-top: 10rem;
+}
+
+.footer-col-2 a {
+  margin-bottom: 1rem;
+}
