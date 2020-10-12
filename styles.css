@@ -1,50 +1,62 @@
-/* colorhunt color palette no. 202087 */
+/* Colour Palette (colorhunt no. 202087) */
 /* charcoal: 41444b */
 /* dark grey: 52575d */
 /* yellow: fddb3a */
 /* off-white: f6f4e6 */
 
-h1 {
-  font-family: "EB Garamond";
-  padding-bottom: 25px;
-}
 
-h2, h3, h5, .navbar-brand, .nav-link, .dropdown-item, .form-control {
+/* Font settings */
+h1, h2, h3, h5 {
   font-family: "EB Garamond";
 }
-
-p, a, .learn-more {
+p, a {
+  font-family: "Open Sans"
+}
+.navbar-brand, .nav-link, .dropdown-item, .form-control {
+  font-family: "EB Garamond";
+}
+.learn-more {
   font-family: "Open Sans"
 }
 
-.title-box {
-  margin-top: 140px;
-}
 
-.title-text {
-  width: 70%;
-}
-
-.title-img {
+/* Section: top */
+.top-img {
   width: 100%;
 }
 
+.top-first-col, .top-second-col {
+  padding: 0;
+  text-align: center;
+  background-color: #f6f4e6;
+}
+
+.top-title {
+  text-align: center;
+  margin-top: 40%;
+}
+
+.top-text {
+  display: inline-block;
+  width: 50%;
+  padding-top: 1rem;
+  margin-bottom: 40%;
+}
+
+/* Section: services */
 .services-box {
   text-align: center;
   margin: 3rem 0 5rem 0;
 }
-
 .service-col {
   margin-bottom: 50px;
 }
-
 .service-img {
   border-radius: 100%;
   width:180px;
   height: 180px;
   margin-bottom: 1rem;
 }
-
 .service-text {
   width: 80%;
   margin: 0 10%;
@@ -69,9 +81,6 @@ p, a, .learn-more {
   padding: 1rem 1rem 0 1rem;
   background-color: rgba(0,0,0,.25);
   display: inline-block;
-}
-
-.carousel-caption h3, .carousel-caption p {
   text-align: left;
 }
 
@@ -108,14 +117,6 @@ p, a, .learn-more {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 900px) {
-  .title-box {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  .title-box p {
-    display: inline-block;
-  }
-
+.visibility-hidden {
+  visibility: hidden;
 }
