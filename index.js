@@ -52,6 +52,7 @@ function windowSizeConsiderations() {
 windowSizeConsiderations();
 window.addEventListener("resize", windowSizeConsiderations);
 
+
 // Navbar slide-up
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {

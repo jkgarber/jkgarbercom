@@ -4,13 +4,13 @@
 /* yellow: fddb3a */
 /* off-white: f6f4e6 */
 
-
-/* Font settings */
+/* Type settings */
 h1, h2, h3, h5 {
   font-family: "EB Garamond";
 }
 p, a {
-  font-family: "Open Sans"
+  font-family: "Open Sans";
+  line-height: 1.5;
 }
 .navbar-brand, .nav-link, .dropdown-item, .form-control {
   font-family: "EB Garamond";
@@ -133,4 +133,26 @@ nav {
 
 .visibility-hidden {
   visibility: hidden;
+}
+
+/* Page: services.html */
+.services-top {
+  background-color: #f6f4e6;
+  padding: 8rem 10%;
+}
+
+.services-h1 {
+  padding-bottom: 4rem;
+}
+
+.service-box {
+  padding: 8rem 10%;
+}
+
+.service-first-col {
+  text-align: center;
+}
+
+.service-name {
+  padding-bottom: 1.5rem;
 }
