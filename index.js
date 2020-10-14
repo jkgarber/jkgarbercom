@@ -51,4 +51,18 @@ function windowSizeConsiderations() {
 // Initial and ongoing calls to a function
 windowSizeConsiderations();
 window.addEventListener("resize", windowSizeConsiderations);
+
+// Navbar slide-up
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector("nav").style.top = "0";
+  } else {
+    document.querySelector("nav").style.top = "-56px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+// Reveal the page
 document.querySelector("body").classList.toggle("visibility-hidden");

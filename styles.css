@@ -20,6 +20,11 @@ p, a {
 }
 
 
+/* Nav */
+nav {
+  transition: top 1s;
+}
+
 /* Section: top */
 .top-img {
   width: 100%;
@@ -43,13 +48,25 @@ p, a {
   margin-bottom: 40%;
 }
 
+/* Section: quote */
+.quote {
+  font-family: "EB Garamond";
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  padding: 100px 20%;
+  line-height: 1;
+  margin: 200px 0;
+}
+
 /* Section: services */
 .services-box {
   text-align: center;
-  margin: 3rem 0 5rem 0;
+  margin: 3rem 0 20rem 0;
 }
 .service-col {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 .service-img {
   border-radius: 100%;
@@ -62,14 +79,9 @@ p, a {
   margin: 0 10%;
 }
 
-.quote {
-  font-family: "EB Garamond";
-  font-size: 3rem;
-  font-weight: 500;
-  font-style: italic;
-  text-align: center;
-  padding: 100px 20%;
-  line-height: 1;
+/* Section: products */
+.products-box {
+  margin-bottom: 200px;
 }
 
 .carousel-caption {
