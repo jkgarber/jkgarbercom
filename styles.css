@@ -138,11 +138,12 @@ nav {
 /* Page: services.html */
 .services-top {
   background-color: #f6f4e6;
-  padding: 8rem 10%;
+  padding: 10rem 10%;
 }
 
 .services-h1 {
   padding-bottom: 4rem;
+  letter-spacing: .2rem;
 }
 
 .service-box {
@@ -155,4 +156,29 @@ nav {
 
 .service-name {
   padding-bottom: 1.5rem;
+}
+
+/* Page: products.html */
+.products-top {
+  background-color: #f6f4e6;
+  padding: 10rem 10%;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.products-h1 {
+  padding-bottom: 2rem;
+  letter-spacing: .2rem;
+}
+
+.product-col {
+  padding: 4rem 4rem;
+}
+
+.product-img {
+  width:100%;
+}
+
+.product-h3 {
+  text-align: center;
 }
