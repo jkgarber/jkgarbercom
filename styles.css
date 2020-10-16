@@ -22,7 +22,7 @@ p, a {
 
 /* Nav */
 nav {
-  transition: top 1s;
+  transition: top .3s;
 }
 
 /* Section: top */
@@ -163,7 +163,6 @@ nav {
   background-color: #f6f4e6;
   padding: 10rem 10%;
   margin-bottom: 5rem;
-  text-align: center;
 }
 
 .products-h1 {
@@ -175,10 +174,18 @@ nav {
   padding: 4rem 4rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .product-img {
   width:100%;
 }
 
 .product-h3 {
   text-align: center;
+}
+
+.opacity-half {
+  opacity: 0.5;
 }
